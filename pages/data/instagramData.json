@@ -1,0 +1,74 @@
+{
+    "users": [
+      {
+        "id": "user1",
+        "username": "john_doe",
+        "name": "John Doe",
+        "profile_picture": "https://static.vecteezy.com/system/resources/thumbnails/003/502/782/small_2x/blue-abstract-watercolor-background-design-png-free-vector.jpg",
+        "followers": [
+          "user2",
+          "user3",
+          "user4"
+        ],
+        "posts": [
+          {
+            "id": "post1",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/003/502/782/small_2x/blue-abstract-watercolor-background-design-png-free-vector.jpg",
+            "caption": "Beautiful sunset!",
+            "likes": 150,
+            "comments": [
+              {
+                "id": "comment1",
+                "text": "Amazing!",
+                "user_id": "user2"
+              },
+              {
+                "id": "comment2",
+                "text": "Great shot!",
+                "user_id": "user3"
+              }
+            ]
+          },
+          {
+            "id": "post2",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/020/237/161/small_2x/realistic-splash-of-oil-juice-png-on-transparent-free-vector.jpg",
+            "caption": "Happy weekend!",
+            "likes": 210,
+            "comments": [
+              {
+                "id": "comment3",
+                "text": "Enjoy!",
+                "user_id": "user4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "user2",
+        "username": "jane_smith",
+        "name": "Jane Smith",
+        "profile_picture": "https://static.vecteezy.com/system/resources/thumbnails/020/237/161/small_2x/realistic-splash-of-oil-juice-png-on-transparent-free-vector.jpg",
+        "followers": [
+          "user1",
+          "user3"
+        ],
+        "posts": [
+          {
+            "id": "post3",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/020/237/161/small_2x/realistic-splash-of-oil-juice-png-on-transparent-free-vector.jpg",
+            "caption": "Cute puppy!",
+            "likes": 320,
+            "comments": [
+              {
+                "id": "comment4",
+                "text": "Aww, adorable!",
+                "user_id": "user1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
